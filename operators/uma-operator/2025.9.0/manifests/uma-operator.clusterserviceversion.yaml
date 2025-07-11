@@ -456,7 +456,7 @@ metadata:
     operators.operatorframework.io/builder: operator-sdk-v1.35.0
     operators.operatorframework.io/project_layout: go.kubebuilder.io/v2
     certified: 'true'
-    containerImage: oerth-scx.lvn.broadcom.net/mn660971/uma-operator@sha256:cd06fa1ca36d8876a050684787e18fa3b7a458b4c9580626c0b6397bac77bf50 
+    containerImage: oerth-scx.lvn.broadcom.net/mn660971/uma-operator@sha256:cd06fa1ca36d8876a050684787e18fa3b7a458b4c9580626c0b6397bac77bf50
     description: The Universal Monitoring Agent for Openshift (UMA for Openshift)
       acts as single deployment that automatically discovers and monitors cloud and
       container infrastructures and containerized application processes.
@@ -1081,7 +1081,7 @@ spec:
                   value: uma-operator
                 - name: RELATED_IMAGE_UMA
                   value: oerth-scx.lvn.broadcom.net/mn660971/docker-slim-ubi9@sha256:8307ee9cf68343804d67cb7ffe78ad92a2150e62a9c0682a53aa3516ad9efb02
-                image: oerth-scx.lvn.broadcom.net/mn660971/uma-operator@sha256:cd06fa1ca36d8876a050684787e18fa3b7a458b4c9580626c0b6397bac77bf50 
+                image: oerth-scx.lvn.broadcom.net/mn660971/uma-operator@sha256:cd06fa1ca36d8876a050684787e18fa3b7a458b4c9580626c0b6397bac77bf50
                 imagePullPolicy: Always
                 name: uma-operator
                 resources: {}
@@ -1112,7 +1112,7 @@ spec:
     url: https://broadcom.com
   relatedImages:
      - name: uma-operator  
-       image: oerth-scx.lvn.broadcom.net/mn660971/uma-operator@sha256:cd06fa1ca36d8876a050684787e18fa3b7a458b4c9580626c0b6397bac77bf50 
+       image: oerth-scx.lvn.broadcom.net/mn660971/uma-operator@sha256:cd06fa1ca36d8876a050684787e18fa3b7a458b4c9580626c0b6397bac77bf50
     - name: uma-slim
       image: oerth-scx.lvn.broadcom.net/mn660971/docker-slim-ubi9@sha256:8307ee9cf68343804d67cb7ffe78ad92a2150e62a9c0682a53aa3516ad9efb02
   version: 2025.9.0-21
