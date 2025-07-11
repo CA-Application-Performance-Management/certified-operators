@@ -959,5 +959,5 @@ spec:
     - name: uma-admin-operator
       image: oerth-scx.lvn.broadcom.net/mn660971/uma-admin-operator@sha256:5acea914a3848c8ccd4aa015ee124a86775b7acd0268406bd3eadc203148f24a
     - name: uma-slim
-      image: registry.connect.redhat.com/ca/universalmonitoragent@oerth-scx.lvn.broadcom.net/mn660971/docker-slim-ubi9@sha256:8307ee9cf68343804d67cb7ffe78ad92a2150e62a9c0682a53aa3516ad9efb02
+      image: oerth-scx.lvn.broadcom.net/mn660971/docker-slim-ubi9@sha256:8307ee9cf68343804d67cb7ffe78ad92a2150e62a9c0682a53aa3516ad9efb02
   version: 2025.9.0-11
